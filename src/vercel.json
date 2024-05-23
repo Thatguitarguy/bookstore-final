@@ -1,23 +1,25 @@
 {
   "rewrites": [
-    {
-      "source": "/admin/dashboard",
-      "destination": "/admin/dashboard/index.html"
-    },
+    { "source": "/", "destination": "/" },
+    { "source": "/shop", "destination": "/" },
+    { "source": "/about", "destination": "/" },
+    { "source": "/blog", "destination": "/" },
+    { "source": "/book/:id", "destination": "/" },
+    { "source": "/admin/dashboard", "destination": "/admin/dashboard/" },
     {
       "source": "/admin/dashboard/upload",
-      "destination": "/admin/dashboard/upload/index.html"
+      "destination": "/admin/dashboard/upload/"
     },
     {
       "source": "/admin/dashboard/manage",
-      "destination": "/admin/dashboard/manage/index.html"
+      "destination": "/admin/dashboard/manage/"
     },
     {
       "source": "/admin/dashboard/edit-books/:id",
-      "destination": "/admin/dashboard/edit-books/:id/index.html"
+      "destination": "/admin/dashboard/edit-books/:id/"
     },
-    { "source": "/sign-up", "destination": "/sign-up/index.html" },
-    { "source": "/login", "destination": "/login/index.html" },
-    { "source": "/logout", "destination": "/logout/index.html" }
+    { "source": "/sign-up", "destination": "/sign-up/" },
+    { "source": "/login", "destination": "/login/" },
+    { "source": "/logout", "destination": "/logout/" }
   ]
 }
