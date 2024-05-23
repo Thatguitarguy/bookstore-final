@@ -1,0 +1,23 @@
+{
+  "rewrites": [
+    {
+      "source": "/admin/dashboard",
+      "destination": "/admin/dashboard/index.html"
+    },
+    {
+      "source": "/admin/dashboard/upload",
+      "destination": "/admin/dashboard/upload/index.html"
+    },
+    {
+      "source": "/admin/dashboard/manage",
+      "destination": "/admin/dashboard/manage/index.html"
+    },
+    {
+      "source": "/admin/dashboard/edit-books/:id",
+      "destination": "/admin/dashboard/edit-books/:id/index.html"
+    },
+    { "source": "/sign-up", "destination": "/sign-up/index.html" },
+    { "source": "/login", "destination": "/login/index.html" },
+    { "source": "/logout", "destination": "/logout/index.html" }
+  ]
+}
